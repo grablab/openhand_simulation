@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>openhand_simulator</name>
+  <version>0.4.0</version>
+  <description>T42 simulator based on urdf_sim_tutorial</description>
+  <author email="andrew.morgan@yale.edu">Andrew Morgan</author>
+  <author email="kaiyu.hang@yale.edu">Hang Kaiyu</author>
+  <author email="krshna@stanford.edu">Krishnan Srinivasan</author>
+
+  <maintainer email="andrew.morgan@gmail.com">Andrew Morgan</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>controller_manager</run_depend>
+  <run_depend>diff_drive_controller</run_depend>
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>gazebo_ros_control</run_depend>
+  <run_depend>joint_state_controller</run_depend>
+  <run_depend>position_controllers</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>rqt_robot_steering</run_depend>
+  <run_depend>rviz</run_depend>
+  <run_depend>urdf_tutorial</run_depend>
+  <run_depend>xacro</run_depend>
+
+</package>

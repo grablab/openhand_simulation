@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>openhand_simulator</name>
+  <name>openhand_simulation</name>
   <version>0.4.0</version>
-  <description>T42 simulator based on urdf_sim_tutorial</description>
+  <description>Model O and ModelT42 simulator based on urdf_sim_tutorial</description>
   <author email="andrew.morgan@yale.edu">Andrew Morgan</author>
   <author email="kaiyu.hang@yale.edu">Hang Kaiyu</author>
   <author email="krshna@stanford.edu">Krishnan Srinivasan</author>

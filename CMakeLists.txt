@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(openhand_simulator)
+project(openhand_simulation)
 
 find_package(catkin REQUIRED)
 

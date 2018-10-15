@@ -12,13 +12,14 @@
             </material>
             <origin rpy="0 1.57079632679 0" xyz="0.000000 0.000000 0.000000" />
             <geometry>
-                <cylinder length="0.00762" radius="0.05715" />
+                <cylinder length="0.02562" radius="0.05715" />
             </geometry>
         </visual>
         <collision>
             <origin rpy="0 1.57079632679 0" xyz="0.000000 0.000000 0.000000" />
             <geometry>
-                <cylinder length="0.00762" radius="0.05715" />
+              <cylinder length="0.02562" radius="0.05715" />
+                <!-- <cylinder length="0.00762" radius="0.05715" /> -->
             </geometry>
         </collision>
     </link>
@@ -68,17 +69,17 @@
     </link>
     <link name="prox_r">
         <inertial>
-            <origin xyz="-0.015875 -0.009000 -0.071550" />
+            <origin xyz="0 0 0" />
             <mass value="0.1" />
-            <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01" />
+            <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001" />
         </inertial>
         <visual>
             <material name="white">
                 <color rgba="1.0 1.0 1.0 1.0" />
             </material>
-            <origin xyz="-0.015875 -0.009000 -0.071550" />
+            <origin xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://wam_t42/models/t42/proximal.stl" scale="0.025400 0.025400 0.025400" />
+                <mesh filename="package://openhand_simulation/t42/pin_flexure_round/t42_round_finger_FHalf.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision>
@@ -90,17 +91,17 @@
     </link>
     <link name="prox_l">
         <inertial>
-            <origin xyz="-0.015875 -0.009000 -0.071550" />
+            <origin xyz="0 0 0" />
             <mass value="0.1" />
-            <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01" />
+            <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001" />
         </inertial>
         <visual>
             <material name="white">
                 <color rgba="1.0 1.0 1.0 1.0" />
             </material>
-            <origin xyz="-0.015875 -0.009000 -0.071550" />
+            <origin xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://wam_t42/models/t42/proximal.stl" scale="0.025400 0.025400 0.025400" />
+                <mesh filename="package://openhand_simulation/t42/pin_flexure_round/t42_round_finger_FHalf.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision>
@@ -112,55 +113,57 @@
     </link>
     <link name="distal_r">
         <inertial>
-            <origin xyz="-0.015875 -0.011709 -0.048006" />
+            <origin xyz="0 0 0" />
             <mass value="0.1" />
-            <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01" />
+            <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001" />
         </inertial>
         <visual>
             <material name="green">
                 <color rgba="0.1 1.0 0.1 1.0" />
             </material>
-            <origin xyz="-0.015875 -0.011709 -0.048006" />
+            <origin xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://wam_t42/models/t42/distal.stl" scale="0.025400 0.025400 0.025400" />
+                <mesh filename="package://openhand_simulation/t42/pin_flexure_round/t42_round_finger_BHalf.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.015875 -0.011709 -0.048006" />
+            <origin xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://wam_t42/models/t42/distal.stl" scale="0.025400 0.025400 0.025400" />
+                <mesh filename="package://openhand_simulation/t42/pin_flexure_round/t42_round_finger_BHalf.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
     <link name="distal_l">
         <inertial>
-            <origin xyz="-0.015875 -0.011709 -0.048006" />
+            <origin xyz="0 0 0" />
             <mass value="0.1" />
-            <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01" />
+            <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001" />
         </inertial>
         <visual>
             <material name="orange">
                 <color rgba="0.9 0.3 0.1 1.0" />
             </material>
-            <origin xyz="-0.015875 -0.011709 -0.048006" />
+            <origin xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://wam_t42/models/t42/distal.stl" scale="0.025400 0.025400 0.025400" />
+                <mesh filename="package://openhand_simulation/t42/pin_flexure_round/t42_round_finger_BHalf.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.015875 -0.011709 -0.048006" />
+            <origin xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://wam_t42/models/t42/distal.stl" scale="0.025400 0.025400 0.025400" />
+                <mesh filename="package://openhand_simulation/t42/pin_flexure_round/t42_round_finger_BHalf.stl" scale="0.001 0.001 0.001" />
             </geometry>
         </collision>
     </link>
     <joint name="fixed1" type="fixed">
-        <origin rpy="0 0 0" xyz="-0.008890 0.000000 0.000000" />
+      <!-- <origin rpy="0 0 0" xyz="-0.008890 0.000000 0.000000" /> -->
+        <origin rpy="0 0 0" xyz="-0.01281 0.000000 0.000000" />
         <parent link="hand_base" />
         <child link="hand_coupler" />
     </joint>
     <joint name="fixed2" type="fixed">
-        <origin rpy="0 0 0" xyz="-0.029210 0.000000 0.000000" />
+      <!-- <origin rpy="0 0 0" xyz="-0.029210 0.000000 0.000000" /> -->
+        <origin rpy="0 0 0" xyz="-0.03821 0.000000 0.000000" />
         <parent link="hand_coupler" />
         <child link="motor_space" />
     </joint>
@@ -238,16 +241,16 @@
         <selfCollide>true</selfCollide>
         <mu1>0.9</mu1>
         <mu2>0.9</mu2>
-        <kd>1</kd>
-        <kp>6000000</kp>
+        <kp>1e9</kp>
+        <kd>1e2</kd>
     </gazebo>
     <gazebo reference="distal_l">
         <material>Gazebo/Orange</material>
         <selfCollide>true</selfCollide>
         <mu1>0.9</mu1>
         <mu2>0.9</mu2>
-        <kd>1</kd>
-        <kp>10000000</kp>
+        <kp>1e9</kp>
+        <kd>1e2</kd>
     </gazebo>
     <transmission name="tran11">
         <type>transmission_interface/SimpleTransmission</type>
